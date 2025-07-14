@@ -1,0 +1,17 @@
+# This is a config for E2B sandbox template.
+# You can use template ID (hygq01sh75hg005e4hz0) or template name (locode-nextjs) to create a sandbox:
+
+# Python SDK
+# from e2b import Sandbox, AsyncSandbox
+# sandbox = Sandbox("locode-nextjs") # Sync sandbox
+# sandbox = await AsyncSandbox.create("locode-nextjs") # Async sandbox
+
+# JS SDK
+# import { Sandbox } from 'e2b'
+# const sandbox = await Sandbox.create('locode-nextjs')
+
+team_id = "8f38bdce-45cc-470e-88d9-557163636a28"
+start_cmd = "/compile_page.sh"
+dockerfile = "e2b.Dockerfile"
+template_name = "locode-nextjs"
+template_id = "hygq01sh75hg005e4hz0"
