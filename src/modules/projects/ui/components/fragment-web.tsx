@@ -41,7 +41,7 @@ export function FragmentWeb({ data }: Props) {
             <span className="truncate">{data.sandboxUrl}</span>
           </Button>
         </Hint>
-        <Hint text="Open in New Tab" side="top" align="start">
+        <Hint text="Open in New Tab" side="bottom" align="start">
           <Button
             size="sm"
             disabled={!data.sandboxUrl}
